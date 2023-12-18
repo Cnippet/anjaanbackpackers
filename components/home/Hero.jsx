@@ -6,7 +6,6 @@ import Hero3 from '@/public/hiking/hiking3.webp'
 import Hero4 from '@/public/hiking/hiking4.webp'
 import Hero5 from '@/public/hiking/hiking5.webp'
 
-
 const Hero = () => {
     return (
         <>
@@ -27,9 +26,9 @@ const Hero = () => {
                                 Embark on unforgettable hiking adventures in the stunning landscapes of Uttarakhand, where nature&apos;s awe-inspiring beauty awaits at every turn, inviting you to discover hidden treasures and create everlasting memories along the way.
                             </p>
                             <div className="mt-10 flex gap-x-6">
-                                <a href="#" className="rounded-md bg-purple-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Browse Components</a>
+                                <a href="#" className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Discover trips</a>
                                 <a href="#" className="text-sm font-semibold leading-6 text-gray-900 my-auto">
-                                    Explore templates <span aria-hidden="true">→</span></a>
+                                    Join us <span aria-hidden="true">→</span></a>
                             </div>
                         </div>
                     </div>
