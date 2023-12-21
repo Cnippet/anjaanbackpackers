@@ -47,6 +47,8 @@ const Feature = () => {
                         <Image
                             src={Hero1}
                             alt='Product screenshot'
+                            quality={100}
+                            loading='eager'
                             className='h-[35rem] object-cover rounded-2xl'
                         />
                     </div>
