@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import Hero from '@/components/home/Hero';
+import Feature from '../components/home/Feature';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Feature />
       </main>
       <Footer />
     </>

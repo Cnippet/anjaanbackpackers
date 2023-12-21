@@ -39,6 +39,7 @@ const Hero = () => {
                                     src={Hero1}
                                     alt='hero image 2'
                                     quality={100}
+                                    loading='eager'
                                     className='w-full h-full aspect-[2/3] rounded-2xl bg-gray-50 object-cover shadow-xl'
                                 />
                             </div>
@@ -49,6 +50,7 @@ const Hero = () => {
                                     src={Hero2}
                                     alt='hero image 2'
                                     quality={100}
+                                    loading='eager'
                                     className='w-full h-full aspect-[2/3] rounded-2xl bg-gray-50 object-cover shadow-xl'
                                 />
                             </div>
@@ -57,16 +59,18 @@ const Hero = () => {
                                     src={Hero3}
                                     alt='hero image 2'
                                     quality={100}
+                                    loading='eager'
                                     className='mt-4 w-full h-full aspect-[2/3] rounded-2xl bg-gray-50 object-cover shadow-xl'
                                 />
                             </div>
                         </div>
-                        <div className='ml-auto w-48 flex-none sm:ml-0 pt-0 md:pt-0 lg:w-44 lg:order-last xl:order-[0] lg:pt-2'>
+                        <div className='hidden ml-auto w-48 flex-none sm:ml-0 pt-0 md:pt-0 md:block lg:w-44 lg:order-last xl:order-[0] lg:pt-2'>
                             <div className='relative'>
                                 <Image
                                     src={Hero4}
                                     alt='hero image 2'
                                     quality={100}
+                                    loading='eager'
                                     className='w-full h-full aspect-[2/3] rounded-2xl bg-gray-50 object-cover shadow-xl'
                                 />
                             </div>
@@ -75,6 +79,7 @@ const Hero = () => {
                                     src={Hero5}
                                     alt='hero image 2'
                                     quality={100}
+                                    loading='eager'
                                     className='mt-4 w-full h-full aspect-[2/3] rounded-2xl bg-gray-50 object-cover shadow-xl'
                                 />
                             </div>
