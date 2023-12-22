@@ -4,7 +4,9 @@ import Hero1 from '@/public/hiking/hiking1.webp'
 import Hero2 from '@/public/hiking/hiking2.webp'
 import Hero3 from '@/public/hiking/hiking3.webp'
 import Hero4 from '@/public/hiking/hiking4.webp'
-import Hero5 from '@/public/hiking/hiking5.webp'
+import Hero5 from '@/public/hiking/hiking5.jpg'
+import Hero6 from '@/public/hiking/hiking6.webp'
+
 
 const Hero = () => {
     return (
