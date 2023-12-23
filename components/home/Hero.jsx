@@ -53,9 +53,10 @@ const Hero = () => {
                                 alt='hero image 3'
                                 className='absolute inset-0 z-[-10] h-full w-full object-cover object-center blur-[0.4px]'
                             />
-                            <div className='absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/50 to-black'></div>
+                            <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/50 to-black'></div>
+                            <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/50 to-black/60'></div>
 
-                            <div className='mx-auto max-w-5xl px-6 py-32 sm:py-48 lg:py-40 lg:px-0'>
+                            <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>
                                 <div className="hidden sm:mb-8 sm:flex">
                                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-200 ring-1 ring-gray-100/10 hover:ring-gray-100">
                                         Announcing our next round of funding. <a href="#" className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
