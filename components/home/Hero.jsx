@@ -53,8 +53,8 @@ const Hero = () => {
                                 alt='hero image 3'
                                 className='absolute inset-0 z-[-10] h-full w-full object-cover object-center blur-[0.4px]'
                             />
-                            <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/50 to-black'></div>
-                            <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/50 to-black/60'></div>
+                            <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/90'></div>
+                            <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/80'></div>
 
                             <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>
                                 <div className="hidden sm:mb-8 sm:flex">
