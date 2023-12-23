@@ -20,13 +20,13 @@ const Feature = () => {
     return (
         <div className='overflow-hidden bg-white py-24 sm:py-32'>
             <div className='mx-auto px-6 lg:px-8'>
-                <div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12'>
+                <div className='mx-auto grid gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none grid-cols-12'>
                     <div className='col-span-12 lg:pr-8 lg:pt-4 lg:col-span-7'>
-                        <div className='lg:max-w-4xl'>
+                        <div className=''>
                             <h2 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'>
                                 Discover the Beauty of Uttarakhand through Hiking
                             </h2>
-                            <p className='mt-6 text-lg text-gray-900'>
+                            <p className='mt-6 text-base text-gray-900 md:text-lg'>
                                 Experience the thrill of hiking in Uttarakhand, where breathtaking landscapes and serene trails await you. Whether you&apos;re a beginner or an experienced hiker, our expert guides will ensure a memorable adventure.
                             </p>
                             <ul className='mt-10 ml-5 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none'>
@@ -43,13 +43,13 @@ const Feature = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-span-12 md:col-span-5'>
+                    <div className='col-span-12 lg:col-span-5'>
                         <Image
                             src={Hero1}
                             alt='Product screenshot'
                             quality={100}
                             loading='eager'
-                            className='h-[35rem] object-cover rounded-2xl'
+                            className='h-[20rem] lg:h-[35rem] object-cover rounded-2xl'
                         />
                     </div>
                 </div>

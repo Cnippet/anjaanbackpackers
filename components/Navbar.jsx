@@ -31,13 +31,13 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white border-b border-gray-300 flex items-center justify-between px-6 lg:px-8'>
+                <div className=' bg-white border-b border-gray-300 flex items-center justify-between px-6 lg:px-8'>
                     <div className="flex lg:flex-none">
                         <a href="/" className="-m-1.5 p-1.5 text-2xl font-medium">
                             <Image
                                 src={Logo}
                                 alt='site-logo'
-                                className='h-20 w-20'
+                                className='h-16 w-16'
                             />
                             <span className="sr-only">Anjaan Backpackers</span>
                         </a>
