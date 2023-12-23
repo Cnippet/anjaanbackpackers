@@ -13,6 +13,8 @@ const Footer = () => {
                             <Image
                                 src={Logo}
                                 alt='site-logo'
+                                quality={100}
+                                loading='eager'
                                 className='w-10 h-10'
                             />
                             <span className='text-2xl font-medium text-black whitespace-nowrap'>
