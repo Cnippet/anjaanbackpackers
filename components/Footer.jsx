@@ -17,7 +17,7 @@ const Footer = () => {
                                 loading='eager'
                                 className='w-16 h-16'
                             />
-                            <span className='my-auto text-2xl font-medium text-black whitespace-nowrap'>
+                            <span className='my-auto hidden text-2xl font-medium text-black whitespace-nowrap md:block'>
                                 Anjaan Backpackers
                             </span>
                         </a>

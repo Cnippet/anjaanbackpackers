@@ -24,10 +24,10 @@ const Newsletter = () => {
             {/*Newsletter with backgroud image*/}
             <section className='relative isolate overflow-hidden'
                 style={{
-                    backgroundImage: "url('/hiking/hiking6.webp')",
+                    backgroundImage: "url('/hiking/hikingnl.jpg ')",
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
-                    backgroundAttachment: 'fixed',
+                    // backgroundAttachment: 'fixed',
                 }}
             >
                 <div className='absolute w-full h-full z-[-10] bg-gradient-to-b from-black/10 via-black/30 to-black/90'></div>
