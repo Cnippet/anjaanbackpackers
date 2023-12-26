@@ -3,7 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import Hero1 from '@/public/hiking/trek1.webp';
 import Hero2 from '@/public/hiking/trek2.webp';
-import Hero3 from '@/public/hiking/trek3.webp';
+import Hero3 from '@/public/hiking/hiking3.webp';
+import Hero6 from '@/public/hiking/hiking6.webp';
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -19,11 +21,11 @@ const Trek = [
     },
     {
         id: 2,
-        imageUrl: Hero2,
+        imageUrl: Hero3,
     },
     {
         id: 3,
-        imageUrl: Hero3,
+        imageUrl: Hero6,
     },
 ]
 
@@ -59,7 +61,7 @@ const Hero = () => {
                             <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>
                                 <div className="hidden sm:mb-8 sm:flex">
                                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-200 ring-1 ring-gray-100/10 hover:ring-gray-100">
-                                        Announcing our next round of funding. <a href="#" className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+                                        Announcing our next round of funding. <a href="#" className="font-medium text-gray-100"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
                                     </div>
                                 </div>
                                 <h1 className='text-5xl font-semibold text-white md:text-6xl'>
