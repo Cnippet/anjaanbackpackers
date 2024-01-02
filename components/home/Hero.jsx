@@ -1,11 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/trek1.webp';
-import Hero2 from '@/public/hiking/trek2.webp';
-import Hero3 from '@/public/hiking/hiking3.webp';
-import Hero6 from '@/public/hiking/hiking6.webp';
-
+import Hero1 from '@/public/hiking/hiking1.jpg';
+import Hero2 from '@/public/hiking/hiking2.jpg';
+import Hero3 from '@/public/hiking/hiking3.jpg';
+import Hero4 from '@/public/hiking/hiking4.jpg';
+import Hero5 from '@/public/hiking/hiking5.jpg';
+import Hero6 from '@/public/hiking/hiking6.jpg';
+import Hero7 from '@/public/hiking/hiking7.jpg';
+import Hero8 from '@/public/hiking/hiking8.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -17,15 +20,15 @@ import { EffectFade, Autoplay, Navigation, Pagination } from 'swiper/modules';
 const Trek = [
     {   
         id: 1,
-        imageUrl: Hero1,
+        imageUrl: Hero8,
     },
     {
         id: 2,
-        imageUrl: Hero3,
+        imageUrl: Hero6,
     },
     {
         id: 3,
-        imageUrl: Hero6,
+        imageUrl: Hero3,
     },
 ]
 
@@ -46,16 +49,16 @@ const Hero = () => {
                         clickable: true,
                     }}
                     modules={[Autoplay, EffectFade, Navigation, Pagination]}
-                    className=''
                 >
                     {Trek.map((item) => (
                         <SwiperSlide key={item.id}>
                             <Image
                                 src={item.imageUrl}
                                 alt='hero image 3'
-                                className='absolute inset-0 z-[-10] h-full w-full object-cover object-center blur-[0.4px]'
+                                className='absolute inset-0 z-[-10] h-full w-full object-cover object-top blur-[0.4px]'
                             />
-                            <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/90'></div>
+                            <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-white/10 to-black/90'></div>
+                            
                             <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/80'></div>
 
                             <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>

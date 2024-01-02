@@ -31,7 +31,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' bg-white border-b border-gray-300 flex items-center justify-between px-6 lg:px-8'>
+                <div className='bg-white border-b border-gray-300 flex items-center justify-between px-6 lg:px-8'>
                     <div className="flex lg:flex-none">
                         <a href="/" className="-m-1.5 p-1.5 text-2xl font-medium">
                             <Image
@@ -53,8 +53,8 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12 ml-10">
-                        <a href="/explore" className="text-sm font-semibold leading-6 text-gray-900">Explore hikes</a>
-                        <a href="/plan" className="text-sm font-semibold leading-6 text-gray-900">Plan trips</a>
+                        <a href="/hikes" className="text-sm font-semibold leading-6 text-gray-900">Explore hikes</a>
+                        <a href="/trips" className="text-sm font-semibold leading-6 text-gray-900">Plan trips</a>
                         <a href="/contacts" className="text-sm font-semibold leading-6 text-gray-900">Contacts</a>
                         <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">About</a>
                     </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     <div className='fixed inset-0 z-50'></div>
                     <div className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto mt-10 bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
                         <div className='flex items-center justify-between'>
-                            <a href='#' className='-m-1.5 p-1.5'>
+                            <a href='/' className='-m-1.5 p-1.5'>
                                 <span className='sr-only'>Anjaan Backpackers</span>
                             </a>
                             <button
@@ -89,13 +89,13 @@ const Navbar = () => {
                         <div className='mt-6 flow-root'>
                             <div className='-my-6 divide-y divide-gray-500/10'>
                                 <div className='space-y-2 py-6'>
-                                    <a href='/explore' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Explore hikes</a>
-                                    <a href='/plan' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Plan trips</a>
+                                    <a href='/hikes' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Explore hikes</a>
+                                    <a href='/trips' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Plan trips</a>
                                     <a href='/contacts' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Contacts</a>
                                     <a href='/about' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>About</a>
                                 </div>
                                 <div className='py-6'>
-                                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Log in</a>
+                                    <a href='/login' className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Log in</a>
                                 </div>
                             </div>
                         </div>

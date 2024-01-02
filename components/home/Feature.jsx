@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking1.webp';
+import Hero1 from '@/public/hiking/hiking9.jpg';
+
 const features = [
     {
         name: 'Push to deploy.',
-        description:
-            'Come and Explore the Majestic and Breathtaking Himalayan Mountains with Us Today',
+        description:'Come and Explore the Majestic and Breathtaking Himalayan Mountains with Us Today',
     },
     {
         name: 'SSL certificates.',
@@ -19,7 +19,7 @@ const features = [
 const Feature = () => {
     return (
         <div className='overflow-hidden bg-white pt-16 sm:pt-24'>
-            <div className='mx-auto px-6 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                 <div className='mx-auto grid gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none grid-cols-12'>
                     <div className='col-span-12 lg:pr-8 lg:pt-4 lg:col-span-7'>
                         <div className=''>
