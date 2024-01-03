@@ -1,14 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking1.webp';
-import Hero2 from '@/public/hiking/hiking2.webp';
-import Hero3 from '@/public/hiking/hiking3.webp';
-import Hero4 from '@/public/hiking/hiking4.webp';
-import Hero5 from '@/public/hiking/hiking5.webp';
-import Hero6 from '@/public/hiking/hiking6.webp';
-import Hero7 from '@/public/hiking/hiking7.webp';
-import Hero8 from '@/public/hiking/hiking8.webp';
+import Hero1 from '@/public/hiking/hiking1.WEBP';
+import Hero2 from '@/public/hiking/hiking2.WEBP';
+import Hero3 from '@/public/hiking/hiking3.WEBP';
+import Hero4 from '@/public/hiking/hiking4.WEBP';
+import Hero5 from '@/public/hiking/hiking5.WEBP';
+import Hero6 from '@/public/hiking/hiking6.WEBP';
+import Hero7 from '@/public/hiking/hiking7.WEBP';
+import Hero8 from '@/public/hiking/hiking8.WEBP';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

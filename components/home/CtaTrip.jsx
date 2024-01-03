@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking1.webp';
-import Hero2 from '@/public/hiking/hiking2.webp';
-import Hero3 from '@/public/hiking/hiking3.webp';
-import Hero6 from '@/public/hiking/hiking6.webp';
+import Hero1 from '@/public/hiking/hiking1.WEBP';
+import Hero2 from '@/public/hiking/hiking2.WEBP';
+import Hero3 from '@/public/hiking/hiking3.WEBP';
+import Hero6 from '@/public/hiking/hiking6.WEBP';
 
 const treks = [
     {

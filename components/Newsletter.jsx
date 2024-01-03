@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <section className='relative isolate overflow-hidden'
             style={{
-                backgroundImage: "url('/hiking/hiking4.webp ')",
+                backgroundImage: "url('/hiking/hiking4.WEBP')",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 // backgroundAttachment: 'fixed',
