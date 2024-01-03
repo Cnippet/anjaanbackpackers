@@ -41,7 +41,7 @@ const Hero = () => {
                     // navigation={true}
                     effect={'fade'}
                     autoplay={{
-                        delay: 5500,
+                        delay: 6500,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -57,7 +57,13 @@ const Hero = () => {
                                 alt='hero image 3'
                                 quality={100}
                                 loading='eager'
-                                className='absolute inset-0 z-[-10] h-full w-full object-cover object-top blur-[0.4px]'
+                                fill={true}
+                                sizes='100vw'
+                                style={{
+                                    objectFit: 'cover',
+                                    objectPosition: 'top',
+                                }}
+                                className='absolute inset-0 z-[-10] blur-[0.4px]'
                             />
                             <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-white/10 to-black/90'></div>
 
