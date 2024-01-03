@@ -24,7 +24,7 @@ const Trek = [
     },
     {
         id: 2,
-        imageUrl: Hero6,
+        imageUrl: Hero1,
     },
     {
         id: 3,
