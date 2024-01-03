@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking9.jpg';
+import Hero1 from '@/public/hiking/hiking9.webp';
 
 const features = [
     {

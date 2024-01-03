@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking1.jpg';
-import Hero2 from '@/public/hiking/hiking2.jpg';
-import Hero3 from '@/public/hiking/hiking3.jpg';
-import Hero6 from '@/public/hiking/hiking6.jpg';
+import Hero1 from '@/public/hiking/hiking1.webp';
+import Hero2 from '@/public/hiking/hiking2.webp';
+import Hero3 from '@/public/hiking/hiking3.webp';
+import Hero6 from '@/public/hiking/hiking6.webp';
 
 const treks = [
     {
@@ -61,6 +61,8 @@ const CtaTrip = () => {
                             <Image
                                 src={trek.imageUrl}
                                 alt='trek-img'
+                                quality={100}
+                                loading='eager'
                                 className='absolute inset-0 -z-10 w-full h-full object-cover'
                             />
                             <div className='absolute inset-0 z-[-10] bg-gradient-to-t from-black/70 to-white/10'></div>

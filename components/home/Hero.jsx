@@ -1,14 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import Hero1 from '@/public/hiking/hiking1.jpg';
-import Hero2 from '@/public/hiking/hiking2.jpg';
-import Hero3 from '@/public/hiking/hiking3.jpg';
-import Hero4 from '@/public/hiking/hiking4.jpg';
-import Hero5 from '@/public/hiking/hiking5.jpg';
-import Hero6 from '@/public/hiking/hiking6.jpg';
-import Hero7 from '@/public/hiking/hiking7.jpg';
-import Hero8 from '@/public/hiking/hiking8.jpg';
+import Hero1 from '@/public/hiking/hiking1.webp';
+import Hero2 from '@/public/hiking/hiking2.webp';
+import Hero3 from '@/public/hiking/hiking3.webp';
+import Hero4 from '@/public/hiking/hiking4.webp';
+import Hero5 from '@/public/hiking/hiking5.webp';
+import Hero6 from '@/public/hiking/hiking6.webp';
+import Hero7 from '@/public/hiking/hiking7.webp';
+import Hero8 from '@/public/hiking/hiking8.webp';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -18,7 +18,7 @@ import 'swiper/css/pagination';
 import { EffectFade, Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 const Trek = [
-    {   
+    {
         id: 1,
         imageUrl: Hero8,
     },
@@ -55,10 +55,12 @@ const Hero = () => {
                             <Image
                                 src={item.imageUrl}
                                 alt='hero image 3'
+                                quality={100}
+                                loading='eager'
                                 className='absolute inset-0 z-[-10] h-full w-full object-cover object-top blur-[0.4px]'
                             />
                             <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-white/10 to-black/90'></div>
-                            
+
                             <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/80'></div>
 
                             <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>
