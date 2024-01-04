@@ -63,7 +63,7 @@ const Hero = () => {
                                     objectFit: 'cover',
                                     objectPosition: 'top',
                                 }}
-                                className='absolute inset-0 z-[-10] blur-[0.4px]'
+                                className='absolute inset-0 z-[-10]'
                             />
                             <div className='md:absolute w-full h-full z-[-9] bg-gradient-to-b from-white/10 to-black/90'></div>
 
