@@ -45,7 +45,7 @@ const CtaTrip = () => {
                 <p className='text-base font-semibold leading-7 text-blue-700'>
                     Upcoming Travel Destinations Await
                 </p>
-                <h2 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+                <h2 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'>
                     Discover Your Next Adventure
                 </h2>
                 <p className='mt-3 text-base leading-8 text-gray-500'>
@@ -57,7 +57,7 @@ const CtaTrip = () => {
                 <div className='mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 md:gap-y-20 lg:mx-0 lg:max-w-none md:grid-cols-2 lg:grid-cols-3'>
                     {treks.map((trek) => (
                         <article key={trek.id} className='relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 
-                        aspect-[4/5]'>
+                        aspect-[2/1.5] md:aspect-[4/5]'>
                             <Image
                                 src={trek.imageUrl}
                                 alt='trek-img'
