@@ -35,15 +35,15 @@ const Testimonial = () => {
     return (
         <section className='isolate overflow-hidden bg-white py-5 lg:py-10'>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-                <h2 className='text-black max-w-2xl text-3xl font-semibold sm:text-4xl'>
+                <h2 className='text-black max-w-2xl text-3xl font-semibold sm:text-4xl' data-aos="fade-up"  data-aos-duration="1000">
                     Happy Hikers Club!
                 </h2>
-                <p className='mt-4 text-gray-700 text-lg'>
+                <p className='mt-4 text-gray-700 text-lg' data-aos="fade-up"  data-aos-duration="1000">
                     Read what our customers have to say about their hiking experiences
                 </p>
             </div>
 
-            <div className='relative mx-auto max-w-full py-6 sm:py-8'>
+            <div className='relative mx-auto max-w-full py-6 sm:py-8' data-aos="fade-up"  data-aos-duration="1000">
                 <Swiper
                     spaceBetween={30}
                     // effect={'fade'}

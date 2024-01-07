@@ -1,3 +1,7 @@
+"use client"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/home/Hero';
 import Feature from '@/components/home/Feature';
@@ -6,8 +10,14 @@ import Testimonial from '@/components/home/Testimonial';
 import Pricing from '@/components/home/Pricing';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
+import { useEffect } from 'react';
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init();
+  })
+
   return (
     <>
       <Navbar />

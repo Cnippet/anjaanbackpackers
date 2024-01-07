@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Hero1 from '@/public/hiking/hiking1.WEBP';
 import Hero2 from '@/public/hiking/hiking2.WEBP';
@@ -33,6 +33,9 @@ const Trek = [
 ]
 
 const Hero = () => {
+
+
+
     return (
         <>
             <section className='relative isolate overflow-hidden -mt-20'>
@@ -89,8 +92,6 @@ const Hero = () => {
                             </div>
                         </SwiperSlide>
                     ))}
-
-
                 </Swiper>
             </section>
 
