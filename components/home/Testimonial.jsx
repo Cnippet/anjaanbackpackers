@@ -46,9 +46,7 @@ const Testimonial = () => {
             <div className='relative mx-auto max-w-full py-6 sm:py-8' data-aos="fade-up"  data-aos-duration="1000">
                 <Swiper
                     spaceBetween={30}
-                    // effect={'fade'}
                     loop={true}
-                    centeredSlides={true}
                     autoplay={{
                         delay: 4000,
                         disableOnInteraction: false,
