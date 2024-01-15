@@ -10,6 +10,7 @@ import Testimonial from '@/components/home/Testimonial';
 import Pricing from '@/components/home/Pricing';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
+import Blogs from '@/components/home/Blogs'
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
         <CtaTrip />
         <Testimonial />
         <Pricing />
+        <Blogs />
         <Newsletter />
       </main>
       <Footer />
