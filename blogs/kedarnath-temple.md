@@ -1,0 +1,68 @@
+---
+title: "Kedarnath Temple"
+subtitle: "Sanctuary in the Himalayas: Kedarnath Temple's Spiritual Majesty"
+date: "2024-01-15"
+image: '/hiking/hiking3.WEBP'
+---
+
+Dedicated to Lord Shiva, Kedarnath temple is one of the twelve Jyotirlingas and a Dham among the Chardhaams, standing at an altitude of 3580 m above sea level. Pandavaas established Kedarnath temple in the 8th century at the banks of the Mandakini River, which gives a magnificent view of the valley and mountains to the Shiva devotees. Kedarnath temple has a separate place in the hearts of people who are adventure enthusiasts and are also devoted to Lord Shiva, which makes it one of the most visited pilgrimages in India.
+
+There is a moderate trek of 18 kilometers from Gaurikund to Kedarnath, which would take almost 6–8 hours, depending on your trekking speed. Another option is a helicopter, which will drop you at Kedarnath temple in just 5-8 minutes.
+
+
+## Kedarnath Opening and Closing Ceremony 2024
+Kedarnath temple gets closed during November and opens during April to May every year because of heavy snowfall. The opening dates are decided on the marvelous occasion of Mahashivratri in February by the priests.
+
+During the winters, Shri Kedarnath Doli is carried to Omkareshwar Mahadev, which is in Ukhimath, so that pilgrims or devotees can take the blessings of Lord Shiva. Even during the winters, the opening and closing ceremonies of Kedarnath are also a very mesmerizing celebration complemented with Garhwali bands and musks.
+
+## Kedarnath temple History
+Kedarnath is almost 1000 years old. Kedarnath was established by Pandavas and was reconstructed by Adi Shankaracharya in the 8th century.
+
+When Lord Shiva converted himself into a bull and dismantled himself, the hump of the bull fell in Kedarnath.
+Kedarnath temple survived a menacing flood in 2013, which caused a heavy loss to mankind and the temple premises.
+Kedarnath was concealed under snow for almost 4000 years.
+
+
+## How to reach Kedarnath
+### Kedarnath by road
+Kedarnath by road is almost 210km from Rishikesh, which will be a 6-7 hours journey by taxi, and approx. 435km from Delhi, which will be around 11 hours drive, which will take almost or you can easily get buses from Rishikesh bus stand to reach Sonprayag from there only sharing taxis are allowed to Gaurikund. On the way to Sonprayag, you will get to see an amazing scenic view of the sky touching mountains and the Sangam of Mandakini and Alaknanda at Devprayag.
+
+### Kedarnath by train
+The nearest railway station is Rishikesh railway station. Kedarnath by train is an almost 7-hour journey from Delhi to Rishikesh. From there, you can get a direct bus, share a taxi, or take a private taxi to Sonprayag. The distance from Rishikesh to Sonprayag is almost 210 km, which will be a 7-hour drive filled with majestic views of the valley.
+
+### Kedarnath by Air
+Kedarnath by Air is an almost 1-hour journey by direct flight from Delhi to Jollygrant Airport; from there, you can get a taxi to the Rishikesh bus stand or to direct Sonprayag.
+
+
+
+## Places to visit near Kedarnath Temple
+* **Vasuki Tal** 
+Vasuki Tal is located at an altitude of 14200 feet. Just a 7-kilometer trek from Kedarnath would lead you to Vasuki Tal. Your eyes will be filled with majestic views of the Chaukhamba mountains. There is an immense population of Brahma Kamal and other flowers near Vasuki Tal. Devotees take baths in Vasuki Tal and then head to the further journey to Kedarnath Temple. It is believed that god Vishnu bathed there on the occasion of Raksha Bandhan, so don’t miss Vasuki Tal on your Kedarnath Temple itenarary.
+
+* **Triyugi Narayana Temple**
+Triyugi Narayana Temple is 10km away from Sonprayag and holds very strong mythological beliefs that Lord Shiva and goddess Parvati got married here and the fire of their ‘feras’ is still burning, which is called Brahmashila, because of which the temple has another name, i.e., Akhand Dhuni temple. It is a must-visit temple along with your Kedarnath journey.
+
+* **Bhairavnath temple**
+Bhairavnath temple is located just near Kedarnath temple. You will get an astonishing view of the valley. It is said that Bhairavnath protects the temple when Kapaaths are closed during the winter. Every devotee must visit this temple along with Kedarnath temple.
+
+* **Dhari Devi**
+Dharvi Devi is on the way to Kedarnath. It is said that one’s Chardhaam yatra doesn’t complete if they don’t visit Dhari Devi while returning; it is just on the roadside with a minimal walk.
+
+* **Tungnath**
+Tungnath is 68km away from Sonprayag. It is located at a height of 2680 meters above sea level, which makes it the highest Shiv temple in the world. There is a moderate trek of 4km to reach the temple. You can also add Tungnath to your Kedarnath journey.
+
+* **Kalpeshwar Mahadev**
+Kalpeshwar Mahadev is in Chamoli district, which is around 38km away from Sonprayag. It is situated at a height of 2200 meters above sea level. There is a very beautiful trek of 11km filled with mesmerizing views of lush green mountains.
+
+## Panchkedars
+There are a total of 5 kedars in Devbhoomi, Uttarakhand. According to Hindu mythology, Lord Shiva was trying to hide himself from Pandavaas and turned himself into a bull. When Bheema found him, he dismantled himself into five parts, which are now known as Panchkedars, which are Kedarnath, Tungnath, Madhyamaheshwar, Rudranath, and Kalpeshwar.
+
+* **Kedarnath:** Kedarnath is also a part of Panchkedars along with 12 Jyotirlingas; the bull’s hump fell here. Kedarnath is one of the most visited pilgrimages and holds its persistence in the hearts of thousands of devotees. It is located at almost 3584 meters above sea level, close to the Mandakini River. The temple gets closed during the winters due to extreme weather conditions and heavy snowfall on the temple premises.
+
+* **Tungnath:** Tungnath is the highest Shiva temple and the highest Panchkedar standing on Chandranath parvat at the ultimate height of 3680 meters above sea level. Arms of bull fell on Tungnath. There is a 4km moderate trek. This holy place also gets closed during winters, and the doli is taken to Mukunath,but it is always open for trekkers even in winters.
+
+* **Madhyamaheshwar:** Madhyamaheshwar is situated at 3490 meters above sea level. Lord Shiva’s Belly button fell here. This is the fourth temple visited on Panchkedar’s journey. The shrine gets totally covered during the winter and gives an amazing adventure experience to devotees.
+
+* **Rudranath:** Rudranath is the fourth pilgrimage to be visited in the Panchkedar circuit; the face of Lord Shiva was found here. Rudranath is the most difficult trek of 24km; it is in the Chamoli district of Uttarakhand. Rudranath is the fourth temple in the circuit of Panchkedars.
+
+* **Kalpeshwar:** Kalpeshwar Mahadev would be the last Kedar on your Panchkedar journey. Situated at a height of 2200 meters above sea level, Jatas, or the Hairs of Mahadev, were found here. Kalpeshwar Mahadev is in the Urgam Valley, and it is almost 10km of trek to reach this majestic pilgrim.

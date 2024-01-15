@@ -42,13 +42,13 @@ const CtaTrip = () => {
     return (
         <section className='bg-white px-6 pb-10 pt-16 lg:pb-20 lg:pt-24 lg:px-8 soa'>
             <div className='mx-auto max-w-2xl text-center'>
-                <p className='text-base font-semibold leading-7 text-blue-700'  data-aos="fade-up"  data-aos-duration="1000">
+                <p className='text-base font-semibold leading-7 text-blue-700'  data-aos="fade-up"  data-aos-duration="500">
                     Upcoming Travel Destinations Await
                 </p>
-                <h2 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'  data-aos="fade-up"  data-aos-duration="1000">
+                <h2 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'  data-aos="fade-up"  data-aos-duration="500">
                     Discover Your Next Adventure
                 </h2>
-                <p className='mt-3 text-base leading-8 text-gray-500'  data-aos="fade-up"  data-aos-duration="1000">
+                <p className='mt-3 text-base leading-8 text-gray-500'  data-aos="fade-up"  data-aos-duration="500">
                 Are you ready to embark on unforgettable journeys to captivating destinations? Get set to explore a world of wonders as we unveil our upcoming trips designed to ignite your wanderlust.
                 </p>
             </div>
@@ -57,7 +57,7 @@ const CtaTrip = () => {
                 <div className='mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 md:gap-y-20 lg:mx-0 lg:max-w-none md:grid-cols-2 lg:grid-cols-3'>
                     {treks.map((trek) => (
                         <article key={trek.id} className='relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 
-                        aspect-[2/1.5] md:aspect-[4/5]' data-aos="fade-right"  data-aos-duration="1000">
+                        aspect-[2/1.5] md:aspect-[4/5]' data-aos="fade-right"  data-aos-duration="500">
                             <Image
                                 src={trek.imageUrl}
                                 alt='trek-img'

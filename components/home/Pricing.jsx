@@ -37,18 +37,18 @@ const Pricing = () => {
         <section className='bg-white py-24 sm:py-10'>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                 <div className='mx-auto max-w-4xl text-center'>
-                    <h2 className='text-base font-semibold leading-7 text-blue-600' data-aos="fade-up"  data-aos-duration="1000">
+                    <h2 className='text-base font-semibold leading-7 text-blue-600' data-aos="fade-up"  data-aos-duration="500">
                         Discover
                     </h2>
-                    <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl' data-aos="fade-up"  data-aos-duration="1000">
+                    <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl' data-aos="fade-up"  data-aos-duration="500">
                         Different Pricing Plans Available for Everyone
                     </p>
                 </div>
-                <p className='mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600' data-aos="fade-up"  data-aos-duration="1000">
+                <p className='mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600' data-aos="fade-up"  data-aos-duration="500">
                     Choose the perfect hiking plan to fit your needs, whether you seek adventure or a leisurely stroll in nature.
                 </p>
 
-                <div className='isolate mx-auto mt-10 grid max-w-md gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2' data-aos="fade-down"  data-aos-duration="1000">
+                <div className='isolate mx-auto mt-10 grid max-w-md gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2' data-aos="fade-down"  data-aos-duration="500">
                     {packages.map((pack, index) => (
                         <div key={index} className='rounded-3xl p-8 shadow-md ring-1 ring-gray-200 lg:p-10'>
                             <h3 className='text-lg font-semibold leading-8 text-gray-900'>
@@ -65,7 +65,7 @@ const Pricing = () => {
                                     /person
                                 </span>
                             </p>
-                            <a href="" className='mt-6 block rounded-md bg-orange-400 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-xl hover:bg-orange-500'>
+                            <a href="#" className='mt-6 block rounded-md bg-orange-400 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-xl hover:bg-orange-500'>
                                 Buy plan
                             </a>
                             <ul className='mt-8 text-sm leading-6 space-y-4 xl:mt-10'>

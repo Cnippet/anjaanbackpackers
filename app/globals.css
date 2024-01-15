@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("/fonts/Poppins-Regular.woff2");
+}
 @layer base {
   ::-webkit-scrollbar {
     width: 8px; /* width of the scrollbar */
@@ -20,4 +24,42 @@
   ::-webkit-scrollbar-corner {
     background: #f1f1f1; /* color of the scrollbar corner */
   }
+  .blog :where(h1):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
+    font-family: Poppins;
+    font-size: 3rem;
+    padding-top: 1.5rem;
+  }
+  .blog :where(h2):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+  .blog :where(h3):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 0.825rem;
+  }
+  .blog :where(p):not(:where([class~="not-blog"])) {
+    font-family: Poppins;
+    font-size: 0.985rem;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.625;
+    margin-top: 0.525rem;
+    -webkit-font-smoothing: auto;
+-moz-osx-font-smoothing: auto;
+  }
+  .blog :where(ul > li):not(:where([class~="not-blog"])) {
+    font-size: 1.0225rem;
+    list-style: disc;
+    margin-left: 1rem;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.625;
+    margin-top: 0.525rem;
+  }
+
 }
