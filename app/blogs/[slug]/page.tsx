@@ -7,8 +7,11 @@ import Footer from '@/components/Footer'
 import Image from 'next/image'
 
 const getBlog = (slug: string) => {
-    const folder = 'blogs/';
+    console.log(slug)
+    const folder = 'posts/';
     const file = `${folder}${slug}.md`;
+    console.log(file)
+
     const content = fs.readFileSync(file, 'utf-8');
     const matterResult = matter(content);
     return matterResult;
