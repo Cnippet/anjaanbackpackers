@@ -14,7 +14,6 @@ const getBlog = (slug: string) => {
     return matterResult;
 }
 
-
 const Blog = (props: any) => {
 
     const slug = props.params.slug;
