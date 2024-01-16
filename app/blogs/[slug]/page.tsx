@@ -6,21 +6,15 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
 
-const getBlog = (slug: string) => {
-    console.log(slug)
-    const folder = 'posts/';
-    const file = `${folder}${slug}.md`;
-    console.log(file)
+const Blog = ({ params }: { params: { slug: string } }) => {
 
+    const id = params.slug
+    const file = `posts/${id}.md`
     const content = fs.readFileSync(file, 'utf-8');
-    const matterResult = matter(content);
-    return matterResult;
-}
+    const matterResult = matter(content)
 
-const Blog = (props: any) => {
-
-    const slug = props.params.slug;
-    const post = getBlog(slug);
+    const post = matterResult;
+    console.log(file);
 
     return (
         <>

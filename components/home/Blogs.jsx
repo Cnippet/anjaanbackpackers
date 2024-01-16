@@ -27,7 +27,7 @@ const posts = [
     {
         id: 2,
         title: 'Badrinath Temple',
-        href: '#',
+        href: '/blogs/demo',
         img: Hero2,
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
