@@ -13,10 +13,8 @@ import Footer from '@/components/Footer'
 const Blog = ({ params }: { params: { slug: string } }) => {
 
     const id = params.slug
-    console.log(id)
 
     const filePath = path.join(process.cwd(), 'blogs', `${id}.mdx`);
-    console.log(filePath)
 
     const srco = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(srco);

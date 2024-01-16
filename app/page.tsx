@@ -25,10 +25,10 @@ export default function Home() {
       <main>
         <Hero />
         <Feature />
-        <CtaTrip />
+        <Blogs />
+        {/* <CtaTrip /> */}
         <Testimonial />
         <Pricing />
-        <Blogs />
         <Newsletter />
       </main>
       <Footer />
