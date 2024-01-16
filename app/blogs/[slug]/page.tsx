@@ -1,29 +1,37 @@
 import React from 'react'
-import fs from 'fs'
-import Markdown from 'markdown-to-jsx'
-import matter from 'gray-matter'
+import Image from 'next/image';
+
+import { MDXRemote } from 'next-mdx-remote/rsc'
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import Image from 'next/image'
+
 
 const Blog = ({ params }: { params: { slug: string } }) => {
 
     const id = params.slug
-    const file = `posts/${id}.md`
-    const content = fs.readFileSync(file, 'utf-8');
-    const matterResult = matter(content)
+    console.log(id)
 
-    const post = matterResult;
-    console.log(file);
+    const filePath = path.join(process.cwd(), 'blogs', `${id}.mdx`);
+    console.log(filePath)
+
+    const srco = fs.readFileSync(filePath, 'utf8');
+    const { data, content } = matter(srco);
+
+    const value = data;
+    const src = content;
 
     return (
         <>
             <Navbar />
-            <main className='mx-auto max-w-3xl px-6 lg:px-8 py-10'>
+            <main className='mx-auto max-w-4xl px-6 lg:px-8 py-10'>
                 <div>
-                    <h1 className='text-5xl font-semibold text-center my-4'>{post.data.title}</h1>
-                    <Image 
-                        src={post.data.image}
+                    <h1 className='text-5xl font-semibold my-4'>{value.title}</h1>
+                    <Image
+                        src={value.image}
                         width={1080}
                         height={680}
                         alt='featured image'
@@ -31,9 +39,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                     />
                 </div>
                 <article className='blog my-10'>
-                    <Markdown>
-                        {post.content}
-                    </Markdown>
+                    <MDXRemote source={src} />
                 </article>
             </main>
             <Footer />
