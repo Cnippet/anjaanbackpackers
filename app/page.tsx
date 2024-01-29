@@ -1,4 +1,5 @@
 "use client"
+import Script from 'next/script';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -19,8 +20,25 @@ export default function Home() {
     AOS.init();
   })
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Website',
+    name: 'Deepak Negi',
+  }
+
   return (
     <>
+      {/* strucuted data using script tag */}
+      <Script id='json-ld' strategy='beforeInteractive'
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
+      {/* strucuted data using micro-data */}
+      <div itemScope itemType="https://schema.org/WebSite">
+        <meta itemProp="url" content="https://www.anjaanbackpackers.com/" />
+        <meta itemProp="name" content="Anjaan Backpackers" />
+      </div>
+
       <Navbar />
       <main>
         <Hero />
