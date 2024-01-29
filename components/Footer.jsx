@@ -46,7 +46,7 @@ const Footer = () => {
                     <div className='flex gap-x-20 max-w-md mt-5 md:justify-between md:mt-0 md:max-w-none'>
                         <div>
                             <h3 className='mb-3 text-sm font-bold text-gray-900'>Hiking</h3>
-                            <ul className='flex flex-col space-y-2 flex-wrap text-sm font-medium text-gray-500'>
+                            <ul className='flex flex-col space-y-2 flex-wrap text-sm font-medium text-gray-600'>
                                 <li>
                                     <a href='#' className='hover:underline '>Packages</a>
                                 </li>
@@ -63,7 +63,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h3 className='mb-3 text-sm font-bold text-gray-900'>Pages</h3>
-                            <ul className='flex flex-col space-y-2 flex-wrap text-sm font-medium text-gray-500'>
+                            <ul className='flex flex-col space-y-2 flex-wrap text-sm font-medium text-gray-600'>
                                 <li>
                                     <a href='#' className='hover:underline'>Hikes</a>
                                 </li>
@@ -83,26 +83,26 @@ const Footer = () => {
 
                 <div className='flex justify-between flex-col pt-8 space-y-4 border-t border-gray-200 md:flex-row md:space-y-0'>
                     <div className='flex gap-x-4'>
-                        <span className='block text-xs text-gray-400 sm:text-left md:text-sm'>
-                            <a href='/' className='underline'>
+                        <span className='block text-xs text-gray-600 sm:text-left md:text-sm'>
+                            <a href='#' className='underline'>
                                 Privacy Policy
                             </a>
                         </span>
-                        <span className='block text-xs text-gray-400 sm:text-left md:text-sm'>
-                            <a href='/' className='underline'>
+                        <span className='block text-xs text-gray-600 sm:text-left md:text-sm'>
+                            <a href='#' className='underline'>
                                 Terms of Service
                             </a>
                         </span>
-                        <span className='block text-xs text-gray-400 sm:text-left md:text-sm'>
-                            <a href='/' className='underline'>
+                        <span className='block text-xs text-gray-600 sm:text-left md:text-sm'>
+                            <a href='#' className='underline'>
                                 Cookies Policy
                             </a>
                         </span>
                     </div>
 
                     <div>
-                        <span className='block text-sm text-gray-500 sm:text-right dark:text-gray-400'>© 2024 <a href='/' className='hover:underline'>Anjaan Backpackers™</a>. All Rights Reserved.</span>
-                        <span className='mt-2 block text-xs text-gray-500 sm:text-right dark:text-gray-400'>Designed by: <a target='_blank' href='https://www.deepaknegi.in/'>Deepak Negi</a>
+                        <span className='block text-sm text-gray-700 sm:text-right'>© 2024 <a href='/' className='hover:underline'>Anjaan Backpackers™</a>. All Rights Reserved.</span>
+                        <span className='mt-2 block text-xs text-gray-700 sm:text-right'>Designed by: <a target='_blank' href='https://www.deepaknegi.in/'>Deepak Negi</a>
                         </span>
                     </div>
                 </div>

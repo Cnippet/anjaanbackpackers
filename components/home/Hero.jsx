@@ -86,7 +86,7 @@ const Hero = () => {
                                 </p>
                                 <div className="mt-10 flex gap-x-6">
                                     <a href="#" className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Discover trips</a>
-                                    <a href="/blogs/kedarnath-temple" className="text-sm font-semibold leading-6 text-orange-500 my-auto">
+                                    <a href="#" className="text-sm font-semibold leading-6 text-orange-500 my-auto">
                                         Join us <span aria-hidden="true">→</span></a>
                                 </div>
                             </div>
