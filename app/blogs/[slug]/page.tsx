@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import type { Metadata, ResolvingMetadata } from 'next'
 
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import fs from 'fs';
@@ -26,7 +25,6 @@ const Blog = ({ params }: { params: { slug: string } }) => {
 
     return (
         <>
-            <title>{value.title}</title>
             <Navbar />
 
             <main className='pt-8 pb-16 antialiased lg:pt-16 lg:pb-24'>
@@ -125,3 +123,27 @@ const Blog = ({ params }: { params: { slug: string } }) => {
 }
 
 export default Blog
+
+
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+    const id = params.slug
+
+    const filePath = path.join(process.cwd(), 'blogs', `${id}.mdx`);
+
+    const srco = fs.readFileSync(filePath, 'utf8');
+    const { data} = matter(srco);
+
+    const value = data;
+
+    return {
+        title: value.title,
+        description: value.subtitle,
+        openGraph: {
+            images: [
+                {
+                    url: value.image
+                }
+            ]
+        }
+    }
+}
