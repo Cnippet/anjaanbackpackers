@@ -44,7 +44,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                             </dl>
                         </div>
 
-                        <div className="blog mt-12 flex flex-col gap-y-6 text-gray-800 font-sans">
+                        <div className="blog mt-12 flex flex-col gap-y-5 text-gray-800 font-sans">
                             <p className='text-lg'>
                                 {value.subtitle}
                             </p>

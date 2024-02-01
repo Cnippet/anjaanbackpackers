@@ -39,7 +39,7 @@
   .blog :where(h2):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
     font-size: 1rem;
     line-height: 1.75rem;
-    font-weight: 800;
+    font-weight: 700;
     color: rgb(15 23 42);
   }
   @media (min-width: 768px) {
@@ -51,7 +51,7 @@
   .blog :where(h3):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
     font-size: 0.825rem;
     line-height: 1.25rem;
-    font-weight: 800;
+    font-weight: 700;
     color: rgb(15 23 42);
   }
   @media (min-width: 768px) {
@@ -71,7 +71,7 @@
     list-style: disc;
     margin-left: 1rem;
     color: #000000;
-    margin-top: 0.625rem;
+    margin-top: 0.525rem;
   }
   .fun-fact {
     @apply max-w-xl px-4 py-2 border rounded-2xl border-orange-400 shadow-xl shadow-orange-100;

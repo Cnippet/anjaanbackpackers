@@ -26,8 +26,8 @@ const posts = [
     },
     {
         id: 2,
-        title: 'Badrinath Temple',
-        href: '/blogs/demo',
+        title: 'Tungnath Trek',
+        href: '/blogs/tungnath-trek',
         img: Hero2,
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
