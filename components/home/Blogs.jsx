@@ -13,8 +13,7 @@ const posts = [
         title: 'Kedarnath Temple',
         href: '/blogs/kedarnath-temple',
         img: Hero3,
-        description:
-            'Dedicated to Lord Shiva, Kedarnath temple is one of the twelve Jyotirlingas and a Dham among the Chardhaams, standing at an altitude of 3580 m above sea level. Pandavaas established Kedarnath temple in the 8th century at the banks of the Mandakini River',
+        description: 'Dedicated to Lord Shiva, Kedarnath temple is one of the twelve Jyotirlingas and a Dham among the Chardhaams, standing at an altitude of 3580 m above sea level. Pandavaas established Kedarnath temple in the 8th century at the banks of the Mandakini River',
         date: 'Jan 15, 2024',
         datetime: '2020-03-16',
         category: { title: 'Travel', href: '#' },
@@ -29,8 +28,7 @@ const posts = [
         title: 'Tungnath Trek',
         href: '/blogs/tungnath-trek',
         img: Hero2,
-        description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
+        description: 'Tungnath temple is the highest Shiva temple which is situated at an elevation of 12,106 feet from the sea level.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         category: { title: 'Marketing', href: '#' },
@@ -64,11 +62,11 @@ const Blogs = () => {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-                    data-aos="fade-up" data-aos-duration="500">
+                        data-aos="fade-up" data-aos-duration="500">
                         Check out our most recent blog posts
                     </h2>
                     <p className="mt-2 text-lg leading-8 text-gray-600"
-                    data-aos="fade-up" data-aos-duration="500">
+                        data-aos="fade-up" data-aos-duration="500">
                         Keep yourself informed about the most recent hiking updates and advice.
                     </p>
                 </div>

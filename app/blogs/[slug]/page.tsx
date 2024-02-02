@@ -44,7 +44,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                             </dl>
                         </div>
 
-                        <div className="blog mt-12 flex flex-col gap-y-5 text-gray-800 font-sans">
+                        <div className="blog mt-8 flex flex-col gap-y-5 text-gray-800 font-sans">
                             <p className='text-lg'>
                                 {value.subtitle}
                             </p>
@@ -67,8 +67,10 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                             <div className='mb-6 rounded-2xl border p-6 shadow-xl'>
                                 <a href="#" className='mb-4 flex gap-4 items-center'>
                                     <Image
-                                        src={Profile1}
+                                        src={value.authUrl}
                                         alt="id-1"
+                                        width={32}
+                                        height={32}
                                         className="h-8 w-8 rounded-full bg-gray-50 object-cover" />
                                     <div className="text-sm leading-4">
                                         <div className="text-slate-900 font-semibold">
