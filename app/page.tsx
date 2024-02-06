@@ -3,14 +3,14 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import Navbar from '@/components/Navbar';
-import Hero from '@/components/home/Hero';
-import Feature from '@/components/home/Feature';
-import CtaTrip from '@/components/home/CtaTrip';
-import Testimonial from '@/components/home/Testimonial';
-import Pricing from '@/components/home/Pricing';
+import Hero from '@/components/(pages)/home/Hero';
+import Feature from '@/components/(pages)/home/Feature';
+import CtaTrip from '@/components/(pages)/home/CtaTrip';
+import Testimonial from '@/components/(pages)/home/Testimonial';
+import Pricing from '@/components/(pages)/home/Pricing';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
-import Blogs from '@/components/home/Blogs'
+import Blogs from '@/components/(pages)/home/Blogs'
 import { useEffect } from 'react';
 
 export default function Home() {
