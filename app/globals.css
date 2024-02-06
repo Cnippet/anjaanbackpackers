@@ -25,40 +25,20 @@
     background: #f1f1f1; /* color of the scrollbar corner */
   }
   .blog :where(h1):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    font-size: 2.25rem;
-    line-height: 2rem;
-    font-weight: 800;
-    color: rgb(15 23 42);
+    @apply text-2xl font-extrabold text-slate-950 md:text-4xl
   }
-  @media (min-width: 768px) {
-    .blog :where(h1):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-      font-size: 2rem;
-      line-height: 2.5rem;
-    }
-  }
+
   .blog :where(h2):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    font-size: 1rem;
-    line-height: 1.75rem;
-    font-weight: 700;
-    color: rgb(15 23 42);
+    @apply text-xl font-semibold text-slate-950 md:text-2xl
+
   }
-  @media (min-width: 768px) {
-    .blog :where(h2):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-      font-size: 1.625rem;
-      line-height: 2.25rem;
-    }
-  }
+
   .blog :where(h3):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    font-size: 0.825rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-    color: rgb(15 23 42);
+    @apply text-lg font-semibold text-slate-950 md:text-xl
   }
-  @media (min-width: 768px) {
-    .blog :where(h3):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-      font-size: 1.425rem;
-      line-height: 2rem;
-    }
+  
+  .blog :where(img):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
+    @apply mx-auto w-[85%] h-full rounded-xl shadow-xl
   }
   .blog :where(p):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
     font-size: 1.0125rem;
