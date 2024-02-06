@@ -30,7 +30,6 @@
 
   .blog :where(h2):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
     @apply text-xl font-semibold text-slate-950 md:text-2xl
-
   }
 
   .blog :where(h3):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
@@ -38,20 +37,15 @@
   }
   
   .blog :where(img):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    @apply mx-auto w-[85%] h-full rounded-xl shadow-xl
+    @apply mx-auto w-full h-full rounded-xl shadow-xl md:w-[85%]
   }
+
   .blog :where(p):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    font-size: 1.0125rem;
-    line-height: 1.5rem;
-    color: rgb(15 23 42);
+    @apply text-[1.0125rem] leading-6 text-slate-950
   }
+
   .blog :where(ul > li):not(:where([class~="not-blog"])) {
-    font-size: 1.0125rem;
-    line-height: 1.5rem;
-    list-style: disc;
-    margin-left: 1rem;
-    color: #000000;
-    margin-top: 0.525rem;
+    @apply text-[1.0125rem] leading-6 list-disc ml-4 text-slate-950 mt-2
   }
   .fun-fact {
     @apply max-w-xl px-4 py-2 border rounded-2xl border-orange-400 shadow-xl shadow-orange-100;
