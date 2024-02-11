@@ -1,48 +1,23 @@
 import { MetadataRoute } from 'next'
 
+const urls = [
+    'https://www.anjaanbackpackers.com/',
+    'https://www.anjaanbackpackers.com/about',
+    'https://www.anjaanbackpackers.com/contacts',
+    'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
+    'https://www.anjaanbackpackers.com/blogs/tungnath-temple',
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
-    return [
-        {
-            url: 'https://www.anjaanbackpackers.com',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 1,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/login',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/signup',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/contacts',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/about',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.anjaanbackpackers.com/blogs/tungnath-trek',
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.8,
-        },
-    ]
+
+    console.log(urls.length);
+
+    const allUrls: MetadataRoute.Sitemap =  urls.map((url) => ({
+        url,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: url === 'https://www.anjaanbackpackers.com/' ? 1 : 0.8,
+    }));
+
+    return allUrls;
 }
