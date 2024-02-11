@@ -4,6 +4,7 @@ const urls = [
     'https://www.anjaanbackpackers.com/',
     'https://www.anjaanbackpackers.com/about',
     'https://www.anjaanbackpackers.com/contacts',
+    'https://www.anjaanbackpackers.com/blogs',
     'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
     'https://www.anjaanbackpackers.com/blogs/tungnath-temple',
 ]

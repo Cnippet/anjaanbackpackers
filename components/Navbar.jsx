@@ -3,6 +3,28 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Logo from '@/public/logo.png'
 
+const links = [
+    {
+        id: 1,
+        title: 'Explore Hikes',
+        href: '#',
+    },
+    {
+        id: 2,
+        title: 'Blogs',
+        href: '/blogs',
+    },
+    {
+        id: 3,
+        title: 'Contacts',
+        href: '/contacts',
+    },
+    {
+        id: 4,
+        title: 'About',
+        href: '/about',
+    },
+]
 const Navbar = () => {
 
     const [mobilemenu, setMobileMenu] = useState(false);
@@ -53,10 +75,14 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12 ml-10">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Explore hikes</a>
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Plan trips</a>
-                        <a href="/contacts" className="text-sm font-semibold leading-6 text-gray-900">Contacts</a>
-                        <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">About</a>
+                        {links.map((link) => (
+                            <a key={link.id}
+                                href={link.href}
+                                className="text-sm font-semibold leading-6 text-gray-900">
+                                {link.title}
+                            </a>
+
+                        ))}
                     </div>
                     <div className="hidden lg:ml-8 lg:flex lg:flex-none lg:gap-4 lg:items-center lg:pl-8">
                         <a href="#" className='text-gray-700'>Search</a>
