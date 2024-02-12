@@ -5,8 +5,11 @@ const urls = [
     'https://www.anjaanbackpackers.com/about',
     'https://www.anjaanbackpackers.com/contacts',
     'https://www.anjaanbackpackers.com/blogs',
+
+    
     'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
     'https://www.anjaanbackpackers.com/blogs/tungnath-temple',
+    'https://www.anjaanbackpackers.com/blogs/top-15-places-to-visit-in-rishikesh-in-2024'
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

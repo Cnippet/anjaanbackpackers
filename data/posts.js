@@ -37,14 +37,13 @@ const posts = [
     },
     {
         id: 3,
-        title: 'Improve your customer experience',
-        href: '#',
+        title: 'Top 15 places to visit in Rishikesh in 2024',
+        href: 'blogs/top-15-places-to-visit-in-rishikesh-in-2024',
         img: Hero2,
-        description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+        description: 'Rishikesh is renowned for its adventure activities and its reputation as the "Yoga capital of the world," making it an ideal destination for both thrill-seekers and those seeking inner peace.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
+        category: { title: 'Travel', href: '#' },
         author: {
             name: 'Cathy Mueller',
             href: '#',
