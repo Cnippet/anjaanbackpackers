@@ -53,7 +53,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                                     width={1080}
                                     height={680}
                                     alt='featured-image'
-                                    className='not-blog aspect-[16/9] object-cover object-center rounded-xl'
+                                    className='not-blog aspect-[16/9] object-cover object-bottom rounded-xl'
                                 />
                             </div>
 

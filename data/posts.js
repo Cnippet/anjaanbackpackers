@@ -1,6 +1,6 @@
 import Hero1 from '@/public/hiking/hiking1.WEBP'
-import Hero2 from '@/public/hiking/hiking2.WEBP'
-import Hero3 from '@/public/hiking/hiking3.WEBP'
+import Hero2 from '@/public/blogs/r00.jpg'
+import Hero3 from '@/public/blogs/k00.jpg'
 import Author1 from '@/public/profile/Profile1.jpg'
 import Author2 from '@/public/profile/Profile2.jpg'
 
