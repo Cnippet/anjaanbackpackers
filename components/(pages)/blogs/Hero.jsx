@@ -45,10 +45,10 @@ const Hero = () => {
                                             {post.title}
                                         </a>
                                     </h3>
-                                    <p className="mt-5 line-clamp-2 text-[0.925rem] leading-6 text-gray-800">{post.description}</p>
+                                    <p className="mt-3 line-clamp-2 text-[0.925rem] leading-6 text-gray-800">{post.description}</p>
                                 </div>
 
-                                <div className="mt-6 py-2 text-sm w-1/3 font-semibold rounded-lg text-orange-600 shadow-sm ring-1 ring-orange-500 hover:text-white hover:bg-orange-500">
+                                <div className="mt-3 py-2 text-sm w-1/3 font-semibold rounded-lg text-orange-600 shadow-sm ring-1 ring-orange-500 hover:text-white hover:bg-orange-500">
                                     <a href={post.href} className="text-sm py-2 px-4 w-full font-semibold leading-6 my-auto">
                                         Read more <span aria-hidden="true">→</span></a>
                                 </div>

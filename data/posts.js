@@ -1,6 +1,7 @@
 import Hero1 from '@/public/blogs/t00.jpg'
 import Hero2 from '@/public/blogs/r00.jpg'
 import Hero3 from '@/public/blogs/k00.jpg'
+import Hero4 from '@/public/blogs/t01.jpeg'
 import Author1 from '@/public/profile/Profile1.jpg'
 import Author2 from '@/public/profile/Profile2.jpg'
 
@@ -40,6 +41,21 @@ const posts = [
         title: 'Top 15 places to visit in Rishikesh in 2024',
         href: 'blogs/top-15-places-to-visit-in-rishikesh-in-2024',
         img: Hero2,
+        description: 'Rishikesh is renowned for its adventure activities and its reputation as the "Yoga capital of the world," making it an ideal destination for both thrill-seekers and those seeking inner peace.',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        category: { title: 'Travel', href: '#' },
+        author: {
+            name: 'Cathy Mueller',
+            href: '#',
+            imageUrl: Author1,
+        },
+    },
+    {
+        id: 4,
+        title: 'Kartikswami Temple',
+        href: 'blogs/kartikswami-temple',
+        img: Hero4,
         description: 'Rishikesh is renowned for its adventure activities and its reputation as the "Yoga capital of the world," making it an ideal destination for both thrill-seekers and those seeking inner peace.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
