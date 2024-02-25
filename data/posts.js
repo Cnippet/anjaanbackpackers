@@ -56,7 +56,7 @@ const posts = [
         title: 'Kartikswami Temple',
         href: 'blogs/kartikswami-temple',
         img: Hero4,
-        description: 'Rishikesh is renowned for its adventure activities and its reputation as the "Yoga capital of the world," making it an ideal destination for both thrill-seekers and those seeking inner peace.',
+        description: 'Kartikeya temple is a type of Hindu temple where the main deity is Lord Kartikeya, one of the sons of prime Hindu deities Lord Shiva and Goddess Parvati. ',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         category: { title: 'Travel', href: '#' },

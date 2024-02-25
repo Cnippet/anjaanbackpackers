@@ -17,7 +17,7 @@ const Blogs = () => {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    {posts.map((post) => (
+                    {posts.slice(0, 3).map((post) => (
                         <article key={post.id} className="flex flex-col items-start"
                             data-aos="fade-up" data-aos-duration={post.delay}>
                             <div className='relative w-full'>
@@ -56,6 +56,14 @@ const Blogs = () => {
                         </article>
                     ))}
                 </div>
+            </div>
+
+            <div className="pointer-events-none relative z-10 mt-3 flex justify-center">
+                <a
+                    className="bg-primary pointer-events-auto inline-flex justify-center rounded-lg px-4 py-3 text-sm font-semibold text-black "
+                    href="/blogs">
+                    Discover more <span aria-hidden="true"> →</span>
+                </a>
             </div>
         </section>
     )
