@@ -37,7 +37,7 @@
   }
   
   .blog :where(img):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
-    @apply mx-auto w-full h-full rounded-xl shadow-xl md:w-[80%]
+    @apply mx-auto w-full h-full rounded-xl shadow-xl md:w-[85%]
   }
 
   .blog :where(p):not(:where([class~="not-blog"], [class~="not-blog"] *)) {
