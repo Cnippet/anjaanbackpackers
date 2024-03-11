@@ -21,6 +21,9 @@ const features = [
     },
 ]
 const Feature = () => {
+    useEffect(() => {
+        AOS.init();
+    })
 
     return (
         <div className='overflow-hidden bg-white pt-16 sm:pt-24 pb-4'>

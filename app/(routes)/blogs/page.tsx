@@ -1,9 +1,9 @@
 import React from 'react'
+import type { Metadata } from 'next'
 
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/(pages)/blogs/Hero'
-import type { Metadata } from 'next'
 import Newsletter from '@/components/Newsletter'
 
 export const metadata: Metadata = {

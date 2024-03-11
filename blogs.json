@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "kartik-swami-temple",
+    "title": "Kartik Swami Temple",
+    "description": "Kartikeya temple is a type of Hindu temple where the main deity is Lord Kartikeya, one of the sons of prime Hindu deities Lord Shiva and Goddess Parvati.",
+    "href": "/blog/kartik-swami-temple",
+    "image": "/blogs/s00.jpg",
+    "date": "Sunday, February 25, 2024",
+    "category": "Travel",
+    "author": "Aman Negi",
+    "intro": "Hey! I'm Aman Negi. I'm a blogger and wordsmith.",
+    "profile": "/profile/Profile1.jpg",
+    "insta": "https://www.instagram.com/am.mu_negi/"
+  },
+  {
+    "slug": "kedarnath-temple",
+    "title": "Kedarnath Temple",
+    "description": "Embarking on a Spiritual Journey: Exploring the Tranquil Sanctuary of Kedarnath Temple in the Majestic Himalayas",
+    "href": "/blog/kedarnath-temple",
+    "image": "/blogs/k00.jpg",
+    "date": "Monday, January 15, 2024",
+    "category": "Travel",
+    "author": "Ananya Krishali",
+    "intro": "Hey! I'm Ananya Krishali. I'm a blogger. Bootcamp grad & Dev.",
+    "profile": "/profile/Profile2.jpg",
+    "insta": "https://www.instagram.com/krishali.05/"
+  },
+  {
+    "slug": "top-15-places-to-visit-in-rishikesh-in-2024",
+    "title": "Top 15 places to visit in Rishikesh in 2024",
+    "description": "Rishikesh is renowned for its adventure activities and its reputation as the 'Yoga capital of the world', making it an ideal destination for both thrill-seekers and those seeking inner peace.",
+    "href": "/blog/top-15-places-to-visit-in-rishikesh-in-2024",
+    "image": "/blogs/r00.jpg",
+    "date": "Monday, February 12, 2024",
+    "category": "Travel",
+    "author": "Aman Negi",
+    "intro": "Hey! I'm Aman Negi. I'm a blogger and wordsmith.",
+    "profile": "/profile/Profile1.jpg",
+    "insta": "https://www.instagram.com/am.mu_negi/"
+  },
+  {
+    "slug": "tungnath-temple",
+    "title": "Tungnath Temple",
+    "description": "Embarking on a Spiritual Quest: Discovering the Serene Abode of Tungnath Temple amidst the Majestic Himalayas",
+    "href": "/blog/top-15-places-to-visit-in-rishikesh-in-2024",
+    "image": "/blogs/t00.jpg",
+    "date": "Thursday, February 01, 2024",
+    "category": "Travel",
+    "author": "Aman Negi",
+    "intro": "Hey! I'm Aman Negi. I'm a blogger and wordsmith.",
+    "profile": "/profile/Profile1.jpg",
+    "insta": "https://www.instagram.com/am.mu_negi/"
+  }
+]

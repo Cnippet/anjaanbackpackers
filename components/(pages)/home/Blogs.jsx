@@ -1,8 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
-import posts from '@/data/posts';
+import {getBlogs, saveBlogs} from '@/lib/blogs';
 
 const Blogs = () => {
+    const blogs = getBlogs();
+    saveBlogs();
+    
+    const sblogs = shuffleArray(blogs);
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
     return (
         <section className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -17,12 +30,14 @@ const Blogs = () => {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    {posts.slice(0, 3).map((post) => (
-                        <article key={post.id} className="flex flex-col items-start"
+                    {sblogs.slice(0, 3).map((post,i) => (
+                        <article key={i} className="flex flex-col items-start"
                             data-aos="fade-up" data-aos-duration={post.delay}>
                             <div className='relative w-full'>
                                 <Image
-                                    src={post.img}
+                                    src={post.image}
+                                    width={1080}
+                                    height={680}
                                     alt='post-img'
                                     className='aspect-video w-full rounded-2xl object-cover sm:aspect-[2/1] lg:aspect-[3/2]'
                                 />
@@ -30,10 +45,10 @@ const Blogs = () => {
                             </div>
                             <div className='mt-4 md:mt-10 max-w-xl'>
                                 <div className="flex items-center gap-x-4 text-xs">
-                                    <a href={post.category.href} className="relative z-10 rounded-full bg-gray-100 px-3 py-1.5 font-medium text-gray-800 hover:bg-gray-200"
+                                    <div className="relative z-10 rounded-full bg-gray-100 px-3 py-1.5 font-medium text-gray-800 hover:bg-gray-200"
                                     >
-                                        {post.category.title}
-                                    </a>
+                                        {post.category}
+                                    </div>
                                     <div className="text-gray-950">
                                         {post.time}
                                     </div>
