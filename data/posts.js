@@ -3,11 +3,10 @@ import Hero2 from '@/public/blogs/r00.jpg'
 import Hero3 from '@/public/blogs/k00.jpg'
 import Hero4 from '@/public/blogs/s00.jpg'
 
-import K1 from '@/blogs/kedarnath-temple.mdx'
-
 const posts = [
     {
         id: 1,
+        slug: "kedarnath-temple",
         title: 'Kedarnath Temple',
         href: '/blog/kedarnath-temple',
         img: Hero3,
@@ -18,6 +17,7 @@ const posts = [
     },
     {
         id: 2,
+        slug: "tungnath-temple",
         title: 'Tungnath Temple',
         href: '/blog/tungnath-temple',
         img: Hero1,
@@ -28,6 +28,7 @@ const posts = [
     },
     {
         id: 3,
+        slug: "top-15-places-to-visit-in-rishikesh-in-2024",
         title: 'Top 15 places to visit in Rishikesh in 2024',
         href: '/blog/top-15-places-to-visit-in-rishikesh-in-2024',
         img: Hero2,
@@ -38,6 +39,7 @@ const posts = [
     },
     {
         id: 4,
+        slug: "kartik-swami-temple",
         title: 'Kartik Swami Temple',
         href: '/blog/kartik-swami-temple',
         img: Hero4,

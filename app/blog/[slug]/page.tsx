@@ -117,7 +117,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
                             <div className='rounded-2xl border p-6 shadow-xl'>
                                 <h3 className='font-semibold text-lg mb-4 border-b'>Related articles</h3>
 
-                                {sRelatedPosts.map((article: any) => (
+                                {sRelatedPosts.slice(0, 3).map((article: any) => (
                                     <Link key={article.id} href={article.href}>
                                         <div className="text-blue-600 text-base font-semibold">
                                             {article.title}
@@ -155,9 +155,26 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         description: value.subtitle,
         metadataBase: new URL('http://anjaanbackpackers.com/'),
         openGraph: {
+            title: value.title,
+            description: value.subtitle,
             images: [
                 {
-                    url: value.image
+                    url: value.image,
+                    width: 1080,
+                    height: 680,
+                    alt: "Anjaan Backpackers blogs",
+                }
+            ]
+        },
+        twitter: {
+            title: value.title,
+            description: value.subtitle,
+            images: [
+                {
+                    url: value.image,
+                    width: 1080,
+                    height: 680,
+                    alt: "Anjaan Backpackers blogs",
                 }
             ]
         }

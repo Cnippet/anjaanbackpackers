@@ -1,28 +1,67 @@
-import { MetadataRoute } from 'next'
+// import { MetadataRoute } from 'next'
 
-const urls = [
-    'https://www.anjaanbackpackers.com/',
-    'https://www.anjaanbackpackers.com/about',
-    'https://www.anjaanbackpackers.com/contacts',
-    'https://www.anjaanbackpackers.com/blogs',
+// const urls = [
+//     'https://www.anjaanbackpackers.com/',
+//     'https://www.anjaanbackpackers.com/about',
+//     'https://www.anjaanbackpackers.com/contacts',
+//     'https://www.anjaanbackpackers.com/blogs',
 
-    
-    'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
-    'https://www.anjaanbackpackers.com/blogs/tungnath-temple',
-    'https://www.anjaanbackpackers.com/blogs/top-15-places-to-visit-in-rishikesh-in-2024',
-    'https://www.anjaanbackpackers.com/blogs/kartikswami-temple',
-]
 
-export default function sitemap(): MetadataRoute.Sitemap {
+//     'https://www.anjaanbackpackers.com/blogs/kedarnath-temple',
+//     'https://www.anjaanbackpackers.com/blogs/tungnath-temple',
+//     'https://www.anjaanbackpackers.com/blogs/top-15-places-to-visit-in-rishikesh-in-2024',
+//     'https://www.anjaanbackpackers.com/blogs/kartikswami-temple',
+// ]
 
-    console.log(urls.length);
+// export default function sitemap(): MetadataRoute.Sitemap {
 
-    const allUrls: MetadataRoute.Sitemap =  urls.map((url) => ({
+//     console.log(urls.length);
+
+//     const allUrls: MetadataRoute.Sitemap =  urls.map((url) => ({
+//         url,
+//         lastModified: new Date(),
+//         changeFrequency: 'weekly',
+//         priority: url === 'https://www.anjaanbackpackers.com/' ? 1 : 0.8,
+//     }));
+
+//     return allUrls;
+// }
+
+import { MetadataRoute } from "next";
+import blogs from "@/data/posts";
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+
+    const BASE_URL = 'https://www.anjaanbackpackers.com';
+
+    const urls = [
+        `${BASE_URL}/about`,
+        `${BASE_URL}/contacts`,
+        `${BASE_URL}/blogs`,
+    ]
+
+    const entries: MetadataRoute.Sitemap = blogs.map(({ slug }) => ({
+        url: `${BASE_URL}/blog/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+    }))
+
+    const allUrls: MetadataRoute.Sitemap = urls.map((url) => ({
         url,
         lastModified: new Date(),
         changeFrequency: 'weekly',
-        priority: url === 'https://www.anjaanbackpackers.com/' ? 1 : 0.8,
+        priority: 0.9,
     }));
 
-    return allUrls;
+    return [
+        {
+            url: `${BASE_URL}`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 1,
+        },
+        ...allUrls,
+        ...entries,
+    ]
 }
