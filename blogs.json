@@ -26,6 +26,19 @@
     "insta": "https://www.instagram.com/krishali.05/"
   },
   {
+    "slug": "temp",
+    "title": "Temp",
+    "description": "Embarking on a Spiritual Quest: Discovering the Serene Abode of Tungnath Temple amidst the Majestic Himalayas",
+    "href": "/blog/temp",
+    "image": "/blogs/t00.jpg",
+    "date": "Thursday, February 01, 2024",
+    "category": "Travel",
+    "author": "Aman Negi",
+    "intro": "Hey! I'm Aman Negi. I'm a blogger and wordsmith.",
+    "profile": "/profile/Profile1.jpg",
+    "insta": "https://www.instagram.com/am.mu_negi/"
+  },
+  {
     "slug": "top-15-places-to-visit-in-rishikesh-in-2024",
     "title": "Top 15 places to visit in Rishikesh in 2024",
     "description": "Rishikesh is renowned for its adventure activities and its reputation as the 'Yoga capital of the world', making it an ideal destination for both thrill-seekers and those seeking inner peace.",
