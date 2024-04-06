@@ -7,7 +7,7 @@ import Pricing from '@/components/(pages)/home/Pricing';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
 import Blogs from '@/components/(pages)/home/Blogs'
-
+import Gallery from '@/components/(pages)/home/Gallery';
 export default function Home() {
 
   return (
@@ -24,6 +24,7 @@ export default function Home() {
         <Feature />
         <Blogs />
         {/* <CtaTrip /> */}
+        <Gallery />
         <Testimonial />
         <Pricing />
         <Newsletter />

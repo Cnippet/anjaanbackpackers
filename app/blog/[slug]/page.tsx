@@ -154,11 +154,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: value.title,
         description: value.description,
-        metadataBase: new URL('http://anjaanbackpackers.com/'),
+        metadataBase: new URL('https://www.anjaanbackpackers.com/'),
         openGraph: {
             title: value.title,
             description: value.description,
-            images: [
+            image: [
                 {
                     url: value.image,
                     width: 1080,

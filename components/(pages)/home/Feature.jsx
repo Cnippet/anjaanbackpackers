@@ -27,7 +27,7 @@ const Feature = () => {
 
     return (
         <div className='overflow-hidden bg-white pt-16 sm:pt-24 pb-4'>
-            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+            <div className='mx-auto max-w-[90%] px-6 lg:px-8'>
                 <div className='mx-auto grid gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none grid-cols-12'>
                     <div className='col-span-12 lg:pr-8 lg:pt-4 lg:col-span-7'>
                         <div className=''>

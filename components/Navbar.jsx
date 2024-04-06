@@ -24,6 +24,11 @@ const links = [
         title: 'About',
         href: '/about',
     },
+    {
+        id: 5,
+        title: 'Gallery',
+        href: '/gallery',
+    }
 ]
 const Navbar = () => {
 
@@ -59,7 +64,7 @@ const Navbar = () => {
                             <Image
                                 src={Logo}
                                 alt='site-logo'
-                                className='h-16 w-16'
+                                className='h-20 w-20'
                             />
                             <span className="sr-only">Anjaan Backpackers</span>
                         </a>

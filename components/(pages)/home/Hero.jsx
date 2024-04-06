@@ -38,7 +38,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className='relative isolate overflow-hidden -mt-20'>
+            <section className='relative isolate h-screen overflow-hidden -mt-20'>
                 <Swiper
                     spaceBetween={30}
                     // navigation={true}
@@ -72,19 +72,19 @@ const Hero = () => {
 
                             <div className='md:hidden block absolute w-full h-full z-[-9] bg-gradient-to-b from-black/10 via-black/30 to-black/80'></div>
 
-                            <div className='mx-auto max-w-5xl px-6 py-48 lg:py-40 lg:px-0'>
+                            <div className='mx-auto max-w-[80%] px-6 flex flex-col justify-end pb-20 h-[98vh] lg:px-0'>
                                 <div className="hidden sm:mb-8 sm:flex">
                                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-200 ring-1 ring-gray-100/10 hover:ring-gray-100">
                                         Announcing our next round of funding. <a href="#" className="font-medium text-gray-100"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
                                     </div>
                                 </div>
-                                <h1 className='text-5xl font-semibold text-white md:text-6xl'>
+                                <h1 className='text-5xl max-w-2xl font-semibold text-white md:text-6xl'>
                                     Explore Uttarakhand&apos;s Breathtaking Landscape with Us
                                 </h1>
-                                <p className='mt-6 text-base text-gray-200 md:font-light md:text-lg'>
+                                <p className='mt-6 text-base ml-auto max-w-2xl text-gray-200 md:font-light md:text-lg'>
                                     Embark on unforgettable hiking adventures in the stunning landscapes of Uttarakhand, where nature&apos;s awe-inspiring beauty awaits at every turn, inviting you to discover hidden treasures and create everlasting memories along the way.
                                 </p>
-                                <div className="mt-10 flex gap-x-6">
+                                <div className="mt-10 flex items-center justify-center gap-x-6">
                                     <a href="#" className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Discover trips</a>
                                     <a href="#" className="text-sm font-semibold leading-6 text-orange-500 my-auto">
                                         Join us <span aria-hidden="true">→</span></a>
