@@ -43,7 +43,7 @@ const Blog = ({ params }: { params: { slug: string } }) => {
 
             <main className='pt-8 pb-16 antialiased lg:pt-16 lg:pb-24'>
                 <div className='mx-auto flex max-w-6xl justify-between px-4 lg:px-0'>
-                    <article className="relative max-w-2xl mx-auto pt-10">
+                    <article className="relative max-w-3xl mx-auto pt-10">
                         <h1 className="text-2xl font-extrabold text-slate-900 md:text-4xl ">
                             {value.title}
                         </h1>
@@ -165,7 +165,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
                     height: 680,
                     alt: "Anjaan Backpackers blogs",
                 }
-            ]
+            ],
+            url: `blog/${value.slug}`,
         },
         twitter: {
             title: value.title,

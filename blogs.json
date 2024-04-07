@@ -1,5 +1,18 @@
 [
   {
+    "slug": "devprayag-sangam",
+    "title": "Devprayag Sangam",
+    "description": "Devprayag Sangam is the place where the Alaknanda and Bhagirath rivers meet to form the holy river Ganga. Devprayag means godly confluence in Sanskrit. Devprayag is a town in the Tehri Garhwal district, in the state of Uttarakhand, India.",
+    "href": "/blog/devprayag-sangam",
+    "image": "/blogs/devprayag/D1.jpg",
+    "date": "Sunday, April 07, 2024",
+    "category": "Prayag",
+    "author": "Aman Negi",
+    "intro": "Hey! I'm Aman Negi. I'm a blogger and wordsmith.",
+    "profile": "/profile/Profile1.jpg",
+    "insta": "https://www.instagram.com/am.mu_negi/"
+  },
+  {
     "slug": "kartik-swami-temple",
     "title": "Kartik Swami Temple",
     "description": "Kartikeya temple is a type of Hindu temple where the main deity is Lord Kartikeya, one of the sons of prime Hindu deities Lord Shiva and Goddess Parvati.",
@@ -42,7 +55,7 @@
     "slug": "tungnath-temple",
     "title": "Tungnath Temple",
     "description": "Embarking on a Spiritual Quest: Discovering the Serene Abode of Tungnath Temple amidst the Majestic Himalayas",
-    "href": "/blog/top-15-places-to-visit-in-rishikesh-in-2024",
+    "href": "/blog/tungnath-temple",
     "image": "/blogs/t00.jpg",
     "date": "Thursday, February 01, 2024",
     "category": "Travel",

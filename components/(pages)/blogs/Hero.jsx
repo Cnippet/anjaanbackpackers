@@ -7,16 +7,6 @@ const Hero = () => {
     const blogs = getBlogs();
     saveBlogs();
 
-    const sblogs = shuffleArray(blogs);
-
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
     return (
         <section className="bg-white py-16 sm:py-24">
             <div className="mx-auto max-w-[85%] px-6 lg:px-8">
@@ -31,7 +21,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    {sblogs.map((post,i) => (
+                    {blogs.map((post,i) => (
                         <article key={i} className="flex flex-col justify-between items-start"
                             data-aos="fade-up" data-aos-duration={post.delay}>
                             <div className='relative w-full'>
