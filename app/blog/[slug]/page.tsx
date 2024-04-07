@@ -158,7 +158,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         openGraph: {
             title: value.title,
             description: value.description,
-            image: [
+            images: [
                 {
                     url: value.image,
                     width: 1080,
